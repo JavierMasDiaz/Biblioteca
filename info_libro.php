@@ -10,7 +10,7 @@
 <body>
 	<h1>Información de libro</h1>
 	<?php
-		$bd = @mysqli_connect("localhost", "root", "", "biblioteca", 3307);
+		$bd = @mysqli_connect("localhost", "root", "", "biblioteca", 3306);
 		mysqli_set_charset($bd, "utf8");
 		if (mysqli_connect_errno() != 0)
 		{
@@ -47,4 +47,5 @@
 	?>
 	<p>[<a href="listado_libros.php">Listado de libros</a>]</p>
 </body>
+
 </html>
