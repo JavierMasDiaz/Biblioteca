@@ -11,7 +11,7 @@
 	<?php
 		if (!empty($_REQUEST['error']))
 			echo '<p class="error">' . $_REQUEST['error'] . '</p>';
-		$bd = @mysqli_connect("db", "root", "", "biblioteca", 3306);
+		$bd = @mysqli_connect("db", "root", "rootpass", "biblioteca", 3306);
 		mysqli_set_charset($bd, "utf8");
 		if (mysqli_connect_errno() != 0)
 		{
@@ -44,3 +44,4 @@
 </body>
 
 </html>
+
