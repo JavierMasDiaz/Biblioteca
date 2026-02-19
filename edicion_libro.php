@@ -19,7 +19,7 @@
 		$fechaLanzamiento = "";
 		$precio = "";
 		
-		$bd = @mysqli_connect("localhost", "root", "", "biblioteca", 3307);
+		$bd = @mysqli_connect("localhost", "root", "", "biblioteca", 3306);
 		mysqli_set_charset($bd, "utf8");
 		if (mysqli_connect_errno() != 0)
 		{
@@ -88,4 +88,5 @@
 		<input type="submit" />
 	</form>
 </body>
+
 </html>
