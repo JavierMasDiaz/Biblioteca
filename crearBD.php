@@ -2,10 +2,12 @@
 <?php
 $servername = "db";
 $username = "root";
-$password = "";
+$password = "rootpass";
+$database = "Biblioteca";
+$port = 3306;
 
-// Crear conexión
-$conn = new mysqli($servername, $username, $password);
+// Conexión al servidor
+$conn = new mysqli($servername, $username, $password, "", $port);
 
 // Verificar conexión
 if ($conn->connect_error) {
