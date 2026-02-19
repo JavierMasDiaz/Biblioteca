@@ -3,7 +3,7 @@
 $servername = "db";
 $username = "root";
 $password = "rootpass";
-$database = "Biblioteca";
+$database = "biblioteca";
 $port = 3306;
 
 // Conexión al servidor
