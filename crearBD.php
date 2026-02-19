@@ -1,6 +1,6 @@
 // crearBD.php
 <?php
-$servername = "localhost";
+$servername = "db";
 $username = "root";
 $password = "";
 
